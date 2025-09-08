@@ -1,0 +1,36 @@
+    th {
+      cursor: pointer;
+      user-select: none;
+    }
+
+    mark {
+      background: #ffeb3b;
+      padding: 0;
+    }
+
+    /* Evitar el feo foco/selección en th */
+    table th:focus,
+    table th:active {
+      outline: none !important;
+      background-color: inherit !important;
+      color: inherit !important;
+    }
+
+    /* Resalte suave de columna ordenada */
+    th.ordenado {
+      background-color: #f1f1f1 !important;
+    }
+
+    .col-active {
+      background-color: #f8fbff;
+    }
+
+    .flecha {
+      margin-left: 6px;
+      font-weight: 700;
+    }
+
+    .table-responsive {
+      max-height: 60vh;
+      overflow: auto;
+    }
